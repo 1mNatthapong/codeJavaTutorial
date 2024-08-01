@@ -1,14 +1,14 @@
-switch (a) {
-    case 1:
-        x += 5;
-        break;
-    case 2:
-        x += 10;
-        break;
-    case 3:
-        x += 16;
-        break;
-    case 4:
-        x += 34;
-        break;
+public class Testpakati {
+
+    int n =1;
+    double x = 0;
+    double s;
+    while (ture) {
+        s = 1.0 / (n * n);
+        if (s <= 0.01) {
+            break;
+        }
+        x = x + 5;
+        n++;
+    }
 }
